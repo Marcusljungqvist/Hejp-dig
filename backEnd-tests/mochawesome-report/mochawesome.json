@@ -1,0 +1,195 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-26T10:41:45.904Z",
+    "end": "2021-11-26T10:41:47.850Z",
+    "duration": 1946,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a77dad99-de75-4a9c-878c-9d3aae60516c",
+      "title": "",
+      "fullFile": "cypress/integration/backEndTests.js",
+      "file": "cypress/integration/backEndTests.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "cd677a27-f3fa-4354-a806-4aba1c97bba2",
+          "title": "Backend test suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test case 01, Create new client",
+              "fullTitle": "Backend test suite Test case 01, Create new client",
+              "timedOut": null,
+              "duration": 750,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "createNewClient(cy);",
+              "err": {},
+              "uuid": "3f11b92d-c551-4765-bf28-058ac9d9391f",
+              "parentUUID": "cd677a27-f3fa-4354-a806-4aba1c97bba2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test case 02, Update client",
+              "fullTitle": "Backend test suite Test case 02, Update client",
+              "timedOut": null,
+              "duration": 110,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "updateClient(cy);",
+              "err": {},
+              "uuid": "634411b8-8ce5-4b4f-b3fa-25e0e3f8a1ba",
+              "parentUUID": "cd677a27-f3fa-4354-a806-4aba1c97bba2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test case 03, Create new reservation",
+              "fullTitle": "Backend test suite Test case 03, Create new reservation",
+              "timedOut": null,
+              "duration": 663,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "createNewReservation(cy);",
+              "err": {},
+              "uuid": "da93fec8-44ed-4a0f-bf23-6216cd4c7484",
+              "parentUUID": "cd677a27-f3fa-4354-a806-4aba1c97bba2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test case 04, update new reservation",
+              "fullTitle": "Backend test suite Test case 04, update new reservation",
+              "timedOut": null,
+              "duration": 65,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "updateReservation(cy);",
+              "err": {},
+              "uuid": "bb7e70a1-7f0d-47b1-84e6-3e99bc94244b",
+              "parentUUID": "cd677a27-f3fa-4354-a806-4aba1c97bba2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test case 05, delete last reservation",
+              "fullTitle": "Backend test suite Test case 05, delete last reservation",
+              "timedOut": null,
+              "duration": 102,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "deleteReservationAfterGet(cy);",
+              "err": {},
+              "uuid": "3eb34c72-9429-4068-916d-46b3912e242f",
+              "parentUUID": "cd677a27-f3fa-4354-a806-4aba1c97bba2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test case 06, delete client",
+              "fullTitle": "Backend test suite Test case 06, delete client",
+              "timedOut": null,
+              "duration": 101,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "deleteAfterGet(cy);",
+              "err": {},
+              "uuid": "fcc41237-94a8-469a-a4b0-508ef0110fd2",
+              "parentUUID": "cd677a27-f3fa-4354-a806-4aba1c97bba2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3f11b92d-c551-4765-bf28-058ac9d9391f",
+            "634411b8-8ce5-4b4f-b3fa-25e0e3f8a1ba",
+            "da93fec8-44ed-4a0f-bf23-6216cd4c7484",
+            "bb7e70a1-7f0d-47b1-84e6-3e99bc94244b",
+            "3eb34c72-9429-4068-916d-46b3912e242f",
+            "fcc41237-94a8-469a-a4b0-508ef0110fd2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1791,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}
